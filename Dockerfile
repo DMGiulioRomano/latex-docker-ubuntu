@@ -2,8 +2,7 @@
 FROM ubuntu:22.04
 
 # Impostazioni di installazione
-ARG TL_MIRROR="https://ctan.mirror.garr.it/mirrors/ctan/systems/texlive/tlnet"
-
+ARG TL_MIRROR="https://ftp.math.utah.edu/pub/tex/historic/systems/texlive/2025/tlnet-final"
 # Usa 'apt-get' per installare le dipendenze di base per Ubuntu.
 # - 'DEBIAN_FRONTEND=noninteractive' evita che apt-get faccia domande.
 # - '--no-install-recommends' mantiene l'immagine più leggera.
